@@ -33,9 +33,11 @@ body{
 }
 /* Klasat kryesore te gridit */
 /* 1 header ,2 main ,3 about ,4 services ,5 projects ,6 happyClients ,7 footer */
-/* #74DCE3 -blue light
+/*
+#74DCE3 -blue light
 #47B8E6 - blue
-#3E74BA - blue dark */
+#3E74BA - blue dark 
+#1b424e - blue darker */
 .header{
     grid-row: 1/1;
     grid-column: 1/-1;
@@ -68,7 +70,7 @@ body{
     align-items: center;
     width: 100%;
     height: 60px;
-    background-color: #ececec;
+    /* background-color: #ececec; */
     position: fixed;
     z-index: 999;
 }
