@@ -247,4 +247,30 @@ body{
 }
 
 /* about i Jetonit */
+.about {
+    color: #fff;
+    font-size: 1.4rem;
+}
 
+.about__slider img {
+    width: 100px;
+}
+.section-title--text {
+    margin-top: 3rem;
+    color: #fff !important;
+}
+.about__information--btn {
+    border: .2rem solid transparent;
+    background-color: #3498db;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    float: right;
+}
+.about__information--btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: .2rem solid #3498db;
+}
