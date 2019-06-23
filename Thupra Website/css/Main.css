@@ -120,6 +120,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 .header__nav nav ul li {
 	float: left;
@@ -145,17 +147,18 @@ body {
 .M_border::after {
 	content: "";
 	width: 0%;
-	height: .1rem;
+	height: .16rem;
 	position: absolute;
+	border-radius: 555px;
 	bottom: 0;
 	left: 0;
 	transition: all .3s;
-	background-color: #4b4e53;
+	background-color: #fff;
 	margin: 0 0 -1rem 0;
 }
-.M_border:active::after {
-	background: linear-gradient(to right, red, blue);
-}
+/* .M_border:active::after {
+    background: rgba(116,220,227,1);
+} */
 .header.header__holder__scroll {
     background: rgba(116,220,227,1);
     background: -moz-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
