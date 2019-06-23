@@ -218,7 +218,8 @@ body {
 }
 .main__scrollBtn--animation {
 	position: relative;
-	animation: scrollBtn 2s infinite;
+    animation: scrollBtn 2s infinite;
+    font-size: 1.7rem;
 }
 
 .p1 {
