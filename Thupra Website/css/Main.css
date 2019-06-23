@@ -249,7 +249,7 @@ body{
 
 /* about i Jetonit */
 .about {
-    color: #fff;
+    color: #1b424e;
     font-size: 1.4rem;
 }
 
@@ -258,11 +258,10 @@ body{
 }
 .section-title--text {
     margin-top: 3rem;
-    color: #fff !important;
+    color: #1b424e !important;
 }
 .about__information--btn {
-    border: .2rem solid transparent;
-    background-color: #3498db;
+    border: .2rem solid #fff;
     color: #fff;
     display: inline-block;
     padding: 1rem 2rem;
@@ -271,7 +270,8 @@ body{
     float: right;
 }
 .about__information--btn:hover {
-    background-color: transparent;
-    color: #fff;
-    border: .2rem solid #3498db;
+    background: #fff !important;
+    color: #1b424e;
+    border: .2rem solid rgb(16, 74, 78);
+    cursor: pointer;
 }
