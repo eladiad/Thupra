@@ -2,8 +2,17 @@
 .u-margin-top-small {margin-top: 2rem;}
 
 
-
-
+/* clasa me ngjyr te sections */
+.color-section{#fff
+    background: rgba(116,220,227,1);
+background: -moz-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(116,220,227,1)), color-stop(100%, rgba(62,116,186,1)));
+background: -webkit-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
+background: linear-gradient(135deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1 );
+}
 
 /* -- Shabllone per te gjitha faqet -- */
 
@@ -18,14 +27,14 @@
 .section-title h2 {
     font-size: 24px;
     line-height: 36px;
-    color: #4d4d4d;
+    color: #fff;
     font-weight: 700;
     position: relative;
 }
 
 .section-title p {
     font-size: 14px;
-    color: #666666;
+    color: #E7FEFF;
     margin: 15px auto 60px auto;
 }
 
@@ -81,19 +90,19 @@
 .single-service-box h2 {
     margin-top: 10px;
     font-size: 18px;
-    color: #4D4D4D;
+    color: #fff;
     font-weight: 500;
 }
 
 .single-service-box h5 {
-    color: #777777;
+    color: #e5f6f9;
     margin-top: 10px;
     font-size: 10px;
 }
 
 .single-service-box p {
     margin-top: 22px;
-    color: #666666;
+    color: #E7FEFF;
 }
 
 .single-service-box:hover i {
