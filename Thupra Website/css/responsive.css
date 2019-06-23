@@ -1,5 +1,10 @@
 /* Responzive  per header edhe side many */
 @media only screen and (max-width: 60rem) {
+  .breakLine {
+    display: block;
+  }
+
+
 	.header__nav--main {
 		display: none;
 	}
@@ -66,4 +71,9 @@
 		font-size: 65%;
 	}
 }
+
+
+
+
+
 
