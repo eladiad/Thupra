@@ -66,9 +66,12 @@ body{
 .header__logo--img{
     width: auto;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header__logo--img img{
-    width: 64px;
+    width: 40px;
     height: auto;
 }
 .header__nav{
