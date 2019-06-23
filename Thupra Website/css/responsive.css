@@ -1,0 +1,70 @@
+/* Responzive  per header edhe side many */
+@media only screen and (max-width: 60rem){
+    
+    .header__nav--main{
+        display: none;
+    }
+          .side-nav{
+        display: block;
+        height:100%;
+            width:0;
+            position:fixed;
+            z-index:1;
+            top:0;
+            left:0;
+            background-color:rgb(163, 73, 73);
+            opacity:0.9;
+            overflow-x:hidden;
+            padding-top:60px;
+            transition:0.5s;
+          }
+          .side-nav li{
+            list-style: none;
+          }
+          .side-nav a{
+            padding:10px 10px 10px 30px;
+            text-decoration:none;
+            font-size:22px;
+            color:#ccc;
+            display:block;
+            transition:0.3s;
+          }
+          .side-nav a:hover{
+            color:#fff;
+          }
+          .side-nav .btn-close{
+            position:absolute;
+            top:0;
+            right:22px;
+            font-size:36px;
+            margin-left:50px;
+          }
+    }
+    
+      
+      @media(min-width:60rem){
+        .open-slide{display:none}
+      }
+
+  
+/* Responzive html font size */
+    @media only screen and (max-width: 75em){
+        html{
+            font-size: 55%;
+        }
+    }
+    @media only screen and (max-width: 56.25em){
+        html{
+            font-size: 50%;
+        }
+    }
+    @media only screen and (max-width: 37.5em){
+        html{
+            font-size: 47%;
+        }
+    }
+    @media only screen and (min-width: 112.5em){
+        html{
+            font-size: 65%;
+        }
+    }
