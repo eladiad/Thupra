@@ -4,6 +4,12 @@
 .u-margin-top-small {
 	margin-top: 2rem;
 }
+.u-padding-top-medium{
+    padding-top: 4rem;
+}
+.u-padding-top-small{
+    padding-top: 2rem;
+}
 
 /* clasa me ngjyr te sections */
 .color-section {
@@ -104,10 +110,11 @@
 	border-radius: 100%;
 	line-height: 50px;
 	text-align: center;
-	color: #3c3c3c;
-	border: 1px solid #3c3c3c;
+	color: #fff;
+	border: 1px solid #fff;
 	float: left;
 	margin-right: 25px;
+	transition: all .1s ease-in-out;
 }
 
 .single-service-box h2 {
@@ -129,11 +136,11 @@
 }
 
 .single-service-box:hover i {
-	color: #fff;
-	border: 1px solid #3498db;
-	background: #3498db;
+	font-size: 25px;
+	color: #5AABD0;
+	background: #fff;
 }
-
+/* 
 .single-service-box:hover h2 {
 	color: #3498db;
-}
+} */

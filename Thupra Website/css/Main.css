@@ -45,6 +45,7 @@ body {
 .main {
 	grid-row: 2/2;
 	grid-column: 1/-1;
+	height: 100vh;
 }
 .about {
 	grid-row: 3/3;
@@ -55,18 +56,24 @@ body {
 .services {
 	grid-row: 4/4;
 	grid-column: 1/-1;
+	height: 100vh;
 }
 .projects {
 	grid-row: 5/5;
 	grid-column: 1/-1;
+	height: 100vh;
+
 }
 .happyClients {
 	grid-row: 6/6;
 	grid-column: 1/-1;
+	height: 100vh;
+
 }
 .footer {
 	grid-row: 7/7;
 	grid-column: 1/-1;
+	height: 100vh;
 }
 /*Header Eladiad*/
 .header {
