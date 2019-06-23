@@ -1,1 +1,50 @@
 .u-margin-top-medium {margin-top: 15rem;}
+
+
+
+
+
+/* -- Shabllone per te gjitha faqet -- */
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #4d4d4d;
+    font-weight: 700;
+    position: relative;
+}
+
+.section-title p {
+    font-size: 14px;
+    color: #666666;
+    margin: 15px auto 60px auto;
+}
+
+.section-background {
+    position: relative;
+}
+
+.section-background:before {
+    background-color: #3498db;
+    z-index: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+.center-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
