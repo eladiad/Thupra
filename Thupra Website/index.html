@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THUPRA | KOMPANIA SOON</title>
+
+    <!-- Linkat -->
+    <link rel="stylesheet" href="css/Main.css">
+    <!--Icon web page . ndrrohet  me llogo -->
+    <link rel="icon" type="img/png" href="img/thupralogo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="other/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="other/slick-1.8.1/slick/slick-theme.css"/>
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="thupraGrid" id="thupraGrid">
+        <div class="header">
+            <div class="header__logo">
+                <div class="header__logo--img">
+                    <img src="img/thupralogo.png" alt="Thupra logo">
+                </div>
+            </div>
+             <div class="header__nav">
+                 <nav class="header__nav--main">
+                    <ul>
+                        <li><a href="#main" class="M_border">main</a></li>
+                        <li><a href="#about" class="M_border">about</a></li>
+                        <li><a href="#services" class="M_border">services</a></li>
+                        <li><a href="#happyClients" class="M_border">happyClients</a></li>
+                        <li><a href="#footer" class="M_border">footer</a></li>
+                    </ul>
+                </nav>
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                        </svg>
+                    </a>
+                </span>
+                <div id="side-menu" class="side-nav">
+                    <li><a href="#" class="btn-close"onclick="closeSlideMenu()">&times;</a></li>
+                    <li><a href="#" class="M_border">Link6</a></li>
+                    <li><a href="#" class="M_border">Link6</a></li>
+                    <li><a href="#" class="M_border">Link6</a></li>
+                    <li><a href="#" class="M_border">Link6</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <!-- Jetoni: Main -->
+            <div class="main__slider">
+                <img src="img/jonathan-petersson-210341-unsplash.jpg" alt="">
+                <img src="img/mahkeo-245724-unsplash.jpg" alt="">
+                <img src="img/marvin-ronsdorf-141846-unsplash.jpg" alt="">
+            </div>
+            <div class="main__text">
+                <div class="main__text--text">
+                    <p class="p1">Style up your <span class="changeText"></span></p>
+                    <p class="p2">It has all unique & new digital experience layouts</p>
+                    <div>
+                        <div class="main__btn main__btn--1">Read more</div>
+                        <div class="main__btn main__btn--2">Our business</div>
+                    </div>
+                </div>
+                <a href="#about"><div class="main__scrollBtn ">
+                    <div class="main__scrollBtn--animation"><i class="fas fa-angle-double-down"></i></div>
+                </div></a>
+            </div>
+        </div>
+        <div class="about" id="about"></div>
+        <div class="services" id="services"></div>
+        <div class="projects" id="projects"></div>
+        <div class="happyClients" id="happyClients"></div>
+        <div class="footer" id="footer">
+            <div class="footer__copyright"></div>
+        </div>
+    </div>
+
+    <!-- Scripta per nave slide menu -->
+    <script src="js/slidemenu.js"></script>
+    <script src="js/navMenuScroll.js"></script>
+    <script src="js/smothScrolling.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="other/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/typed.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/textChange.js"></script>
+</body>
+</html>
