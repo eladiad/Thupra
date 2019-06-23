@@ -34,11 +34,11 @@ body{
     overflow: hidden;
     grid-gap: 5px;
     grid-auto-columns: 100vw;
-    grid-auto-rows: 60px 100vh 100vh 100vh 100vh 100vh  100vh;
+    grid-auto-rows: 60px 100vh 100vh 500px 100vh 100vh  100vh;
     transition: margin-left .333s;
 }
 /* Klasat kryesore te gridit */
-/* header ,main ,about ,services ,prjects ,happyClients ,footer */
+/* 1 header ,2 main ,3 about ,4 services ,5 projects ,6 happyClients ,7 footer */
 .header{
     grid-row: 1/1;
     grid-column: 1/-1;
