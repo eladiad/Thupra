@@ -29,7 +29,7 @@ body {
 	overflow: hidden;
 	grid-auto-columns: 100vw;
 	grid-auto-rows: 0 100vh auto auto 650px 650px 650px;
-	transition: margin-left .333s;
+	transition: margin-left .5s;
 }
 /* Klasat kryesore te gridit */
 /* 1 header ,2 main ,3 about ,4 services ,5 projects ,6 happyClients ,7 footer */
