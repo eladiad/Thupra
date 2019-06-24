@@ -27,7 +27,7 @@ body {
 	display: grid;
 	overflow: hidden;
 	grid-auto-columns: 100vw;
-	grid-auto-rows: 0 100vh auto auto auto auto auto;
+	grid-auto-rows: 0 120vh auto auto auto auto auto;
 	transition: margin-left .5s;
 }
 /* Klasat kryesore te gridit */
@@ -44,13 +44,12 @@ body {
 .main {
 	grid-row: 2/2;
 	grid-column: 1/-1;
-	height: 100vh;
+	height: 120vh;
 }
 .about {
 	grid-row: 3/3;
-    grid-column: 1/-1;
+	grid-column: 1/-1;
 	background-color: #fff;
-    
 }
 .services {
 	grid-row: 4/4;
@@ -66,7 +65,6 @@ body {
 	grid-row: 6/6;
 	grid-column: 1/-1;
 	height: 100vh;
-
 }
 .footer {
 	grid-row: 7/7;
@@ -158,15 +156,20 @@ body {
     background: rgba(116,220,227,1);
 } */
 .header.header__holder__scroll {
-    background: rgba(116,220,227,1);
-    background: -moz-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(116,220,227,1)), color-stop(100%, rgba(62,116,186,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
-    background: linear-gradient(135deg, rgba(116,220,227,1) 0%, rgba(62,116,186,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1 );
-    
+	background: rgba(116, 220, 227, 1);
+	background: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	background: -webkit-gradient(
+		left top,
+		right bottom,
+		color-stop(0%, rgba(116, 220, 227, 1)),
+		color-stop(100%, rgba(62, 116, 186, 1))
+	);
+	background: -webkit-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	background: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1);
+
 	-webkit-box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25);
 	box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25);
@@ -197,6 +200,22 @@ body {
 	align-items: center;
 	flex-direction: column;
 }
+.main__video {
+	position: relative;
+}
+.main__video video {
+	width: 100%;
+	height: 100%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+.main__video--background {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.6;
+}
 .main__text--text {
 	display: flex;
 	justify-content: center;
@@ -219,8 +238,8 @@ body {
 }
 .main__scrollBtn--animation {
 	position: relative;
-    animation: scrollBtn 2s infinite;
-    font-size: 1.7rem;
+	animation: scrollBtn 2s infinite;
+	font-size: 1.7rem;
 }
 
 .p1 {
@@ -232,6 +251,7 @@ body {
 .p2 {
 	font-size: 2rem;
 	animation: righttoleft 1s 1;
+	text-align: center;
 }
 
 .changeText {
@@ -259,8 +279,8 @@ body {
 }
 
 .main__btn--1 {
-    margin-right: 5rem;
-    font-size: 1.6rem;
+	margin-right: 5rem;
+	font-size: 1.6rem;
 }
 .main__btn--1:hover {
 	background-color: #3498db;
@@ -269,8 +289,8 @@ body {
 .main__btn--2 {
 	background-color: #3498db;
 	padding: .75rem 4rem;
-    border: transparent solid 2px;
-    font-size: 1.6rem;
+	border: transparent solid 2px;
+	font-size: 1.6rem;
 }
 .main__btn--2:hover {
 	background-color: transparent;
@@ -279,17 +299,17 @@ body {
 }
 .main__slider img {
 	width: 100%;
-    height: 100vh;
-    font-size: 2rem;
+	height: 100vh;
+	font-size: 2rem;
 }
 /*  */
 /* **************************************** */
 /* about i Jetonit */
 .about {
 	color: #1b424e;
-    font-size: 1.4rem;
-    padding-top: 2rem;
-    padding-bottom: 10rem;
+	font-size: 1.4rem;
+	padding-top: 2rem;
+	padding-bottom: 10rem;
 }
 
 .about__slider img {
