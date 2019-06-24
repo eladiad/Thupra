@@ -65,7 +65,10 @@
 		font-size: 36px;
 		margin-left: 50px;
 		cursor: pointer;
-	}
+    }
+    .openSlide{
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 60rem) {
@@ -94,4 +97,108 @@
 	html {
 		font-size: 65%;
 	}
+}
+
+
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+    
+    .subscribe-area {
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: -27px;
+        width: 100%;
+    }
+    .subscribe-area-title {
+        width: 53%;
+        padding: 0px;
+        margin-left: -7px;
+    }
+    .subscribe-area-title h2 {
+        margin-top: 10px;
+    }
+    .subscribe-area-title p {
+        margin-left: -35px;
+    }
+    .email-subscribe {
+        margin-top: 15px;
+        margin-left: 70px;
+        margin-right: 99px;
+    }
+    .subscribe-area input[type="email"] {
+        width: 30%;
+    }
+    .subscribe-area .email-subscribe input[type="submit"] {
+        padding: 7px 10px 7px;
+    }
+    .widget-footer .widget-title::after {
+        width: 17%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+       .subscribe-area {
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: -27px;
+    }
+    .subscribe-area-title {
+        float: none;
+        width: 100%;
+        padding: 0px;
+        margin-left: -7px;
+    }
+    .subscribe-area-title h2 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .subscribe-area-title p {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .email-subscribe {
+        margin-top: 15px;
+        margin-left: -13px;
+        margin-right: 0px;
+    }
+    .subscribe-area input[type="email"] {
+        width: 50%;
+    }
+    .subscribe-area .email-subscribe input[type="submit"] {
+        padding: 7px 10px 7px;
+    }
+    .widget-footer .widget-title::after {
+        width: 48%;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .subscribe-area {
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: -27px;
+    }
+    .subscribe-area-title {
+        float: none;
+        width: 100%;
+        padding: 0px;
+        margin-left: -7px;
+    }
+    .subscribe-area-title h2 {
+        margin-top: 10px;
+    }
+    .email-subscribe {}
+    .subscribe-area input[type="email"] {
+        width: 24%;
+    }
+    .subscribe-area .email-subscribe input[type="submit"] {
+        padding: 7px 10px 7px;
+    }
+    
 }
