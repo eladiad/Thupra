@@ -2,8 +2,6 @@
 /* 1 header ,2 main ,3 about ,4 services ,5 projects ,6 happyClients ,7 footer */
 /* Responzive  per header edhe side many */
 @media only screen and (max-width: 60rem) {
-	.header {
-	}
 	.main {
 		height: 100%;
 	}
@@ -78,7 +76,10 @@
     }
     .main__video {
         height: 100%;
-    }
+	}
+	.social-link{
+		margin: 0 !important;
+	}
 }
 
 @media (min-width: 60rem) {
@@ -198,8 +199,6 @@
 	}
 	.subscribe-area-title h2 {
 		margin-top: 10px;
-	}
-	.email-subscribe {
 	}
 	.subscribe-area input[type="email"] {
 		width: 24%;

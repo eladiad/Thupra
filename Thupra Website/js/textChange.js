@@ -1,5 +1,5 @@
 var typed = new Typed('.changeText', {
-     strings: ["First sentence.", "Second sentence."],
+     strings: ["Web Page.", "Design."],
      typeSpeed: 60,
      loop: true,
      backSpeed: 60,
