@@ -27,7 +27,7 @@ body {
 	display: grid;
 	overflow: hidden;
 	grid-auto-columns: 100vw;
-	grid-auto-rows: 0 120vh auto auto auto auto auto;
+	grid-auto-rows: 0 auto auto auto auto auto auto;
 	transition: margin-left .5s;
 }
 /* Klasat kryesore te gridit */
@@ -36,7 +36,13 @@ body {
 #74DCE3 -blue light
 #47B8E6 - blue
 #3E74BA - blue dark 
-#1b424e - blue darker */
+#252839 - blue darker */
+/* 
+#252839
+#677077
+#b5b5b7
+#f2b632
+ */
 .header {
 	grid-row: 1/1;
 	grid-column: 1/-1;
@@ -156,19 +162,13 @@ body {
     background: rgba(116,220,227,1);
 } */
 .header.header__holder__scroll {
-	background: rgba(116, 220, 227, 1);
-	background: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	background: -webkit-gradient(
-		left top,
-		right bottom,
-		color-stop(0%, rgba(116, 220, 227, 1)),
-		color-stop(100%, rgba(62, 116, 186, 1))
-	);
+	background: #252839;
+	/* background: #252839;
 	background: -webkit-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	background: -o-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	background: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	background: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1); */
 
 	-webkit-box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.25);
@@ -253,19 +253,12 @@ body {
 }
 
 .changeText {
-	color: rgba(116, 220, 227, 1);
-	color: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	color: -webkit-gradient(
-		left top,
-		right bottom,
-		color-stop(0%, rgba(116, 220, 227, 1)),
-		color-stop(100%, rgba(62, 116, 186, 1))
-	);
-	color: -webkit-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	color: #252839;
+	/* color: -webkit-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	color: -o-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	color: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	color: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1); */
 }
 .main__btn {
 	border: #fff solid 2px;
@@ -280,11 +273,11 @@ body {
 	font-size: 1.6rem;
 }
 .main__btn--1:hover {
-	background-color: #3498db;
+	background-color: #252839;
 	cursor: pointer;
 }
 .main__btn--2 {
-	background-color: #3498db;
+	background-color: #252839;
 	padding: .75rem 4rem;
 	border: transparent solid 2px;
 	font-size: 1.6rem;
@@ -303,7 +296,7 @@ body {
 /* **************************************** */
 /* about i Jetonit */
 .about {
-	color: #1b424e;
+	color: #252839;
 	font-size: 1.4rem;
 	padding-top: 2rem;
 	padding-bottom: 10rem;
@@ -314,7 +307,7 @@ body {
 }
 .section-title--text {
 	margin-top: 3rem;
-	color: #1b424e !important;
+	color: #252839 !important;
 }
 .about__information--btn {
 	border: .2rem solid #fff;
@@ -328,7 +321,7 @@ body {
 }
 .about__information--btn:hover {
 	background: #fff !important;
-	color: #1b424e;
+	color: #252839;
 	border: .2rem solid rgb(16, 74, 78);
 	cursor: pointer;
 }
@@ -340,4 +333,12 @@ body {
 .slick-slide:focus, .slick-slide a {
 	outline: none;
   }
-  
+  /* Projects */
+  .projects button{
+	  width: 300px;
+  }
+  .projects button:hover{
+	  background-color: white;
+	  color: #252839 !important;
+	  border: 1px solid #252525;
+  }

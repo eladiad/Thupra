@@ -30,8 +30,8 @@
 }
 /* clasa me ngjyr te sections */
 .color-section {
-	background: rgba(116, 220, 227, 1);
-	background: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
+	background: #252839;
+	/* background: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	background: -webkit-gradient(
 		left top,
 		right bottom,
@@ -42,7 +42,7 @@
 	background: -o-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	background: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	background: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1); */
 }
 .color-text {
 	color: rgba(116, 220, 227, 1);
@@ -58,6 +58,12 @@
 	color: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	color: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1);
+}
+.color-text-dark{
+	color: #252839 !important;
+}
+.color-text-white{
+	color: #fff !important;
 }
 
 /* -- Shabllone per te gjitha faqet -- */
@@ -89,7 +95,7 @@
 }
 
 .section-background:before {
-	background-color: #3498db;
+	background-color: #f2b632;
 	z-index: 0;
 	content: "";
 	position: absolute;
@@ -100,7 +106,7 @@
 	opacity: 0.8;
 }
 .section-title h2 span {
-	color: #3498db;
+	color: #f2b632;
 }
 .center-all {
 	display: flex;
@@ -154,10 +160,10 @@
 
 .single-service-box:hover i {
 	font-size: 25px;
-	color: #5AABD0;
+	color: #f2b632;
 	background: #fff;
 }
 /* 
 .single-service-box:hover h2 {
-	color: #3498db;
+	color: #f2b632;
 } */
