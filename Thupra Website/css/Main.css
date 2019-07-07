@@ -30,6 +30,18 @@ body {
 	grid-auto-rows: 0 auto auto auto auto auto auto;
 	transition: margin-left .5s;
 }
+.onTop{
+	position: fixed;
+	z-index: 9999;
+	top: 90%;
+	right: 2%;
+	font-size: 25px;
+	opacity: 0;
+	transition: all .7s;
+}
+.onTop a{
+	color: #f2b632 !important;
+}
 /* Klasat kryesore te gridit */
 /* 1 header ,2 main ,3 about ,4 services ,5 projects ,6 happyClients ,7 footer */
 /*
@@ -183,6 +195,10 @@ body {
 }
 .main__slider {
 	z-index: 1;
+}
+.main__slider img{
+	width: 100%;
+	height: auto;
 }
 .main__text {
 	z-index: 2;
