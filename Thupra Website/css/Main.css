@@ -64,7 +64,7 @@ body {
 .happyClients {
 	grid-row: 6/6;
 	grid-column: 1/-1;
-	height: 100vh;
+	height: 100%;
 }
 .footer {
 	grid-row: 7/7;
@@ -332,3 +332,12 @@ body {
 	border: .2rem solid rgb(16, 74, 78);
 	cursor: pointer;
 }
+/* Happy Clinets */
+.happyClients__text{}
+.happyClients__text-text-color-default{
+	color: #707070 !important;
+}
+.slick-slide:focus, .slick-slide a {
+	outline: none;
+  }
+  
