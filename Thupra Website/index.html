@@ -44,7 +44,6 @@
             <div class="header__nav">
                 <nav class="header__nav--main">
                     <ul>
-                        <li><a href="#main" class="M_border">Main</a></li>
                         <li><a href="#about" class="M_border">About</a></li>
                         <li><a href="#services" class="M_border">Services</a></li>
                         <li><a href="#projects" class="M_border">Projects</a></li>
@@ -63,7 +62,6 @@
                 </span>
                 <div id="side-menu" class="side-nav color-section">
                     <li class="btn-close" onclick="closeSlideMenu()">&times;</li>
-                    <li><a href="#main" class="M_border">main</a></li>
                     <li><a href="#about" class="M_border">about</a></li>
                     <li><a href="#services" class="M_border">Services</a></li>
                     <li><a href="#projects" class="M_border">Projects</a></li>
@@ -88,9 +86,10 @@
                 <div class="main__text--text">
                     <p class="p1">Style up your <span class="changeText"></span></p>
                     <p class="p2">It has all unique & new digital experience layouts</p>
-                    <div class="button">
+
+                    <!-- <div class="button">
                         <a href="#box1" class="btn_v1">Welcome</a>
-                    </div>
+                    </div> -->
                 </div>
                 <a href="#about">
                     <div class="main__scrollBtn ">
@@ -236,22 +235,23 @@
                 </div>
             </div>
         </div>
-        <div class="projects u-padding-top-medium" id="projects" style="background-color:#C34D1D;">
+        <div class="projects u-padding-top-medium" id="projects">
             <div class="container">
                 <div class="row center-all">
                     <div class="col-md-6">
                         <div class="section-title">
-                            <h2>Our <span>Projects</span></h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            <h2 class="color-text-dark">Our <span>Projects</span></h2>
+                            <p class="color-text-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                                 Ipsum has been the industry's standard dummy text</p>
                         </div>
                     </div>
                     <div id="myBtnContainer" class="col-lg-12 center-all u-margin-top-small u-margin-bottom-small">
-                        <button type="button" class="btn btn-info u-padding-btn-small u-margin-btn-small"
-                            onclick="filterSelection('all')"> Show all</button>
-                        <button type="button" class="btn btn-info u-padding-btn-small u-margin-btn-small"
+
+                        <button type="button" class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
+                            onclick="filterSelection('all')"> All</button>
+                        <button type="button" class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
                             onclick="filterSelection('web')"> Website</button>
-                        <button type="button" class="btn btn-info u-padding-btn-small u-margin-btn-small"
+                        <button type="button" class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
                             onclick="filterSelection('des')"> Design</button>
 
                     </div>
@@ -341,7 +341,96 @@
                 </div>
             </div>
         </div>
-        <div class="happyClients u-padding-top-medium" id="happyClients"></div>
+
+        <div class="happyClients u-padding-top-medium color-section" id="happyClients">
+            <div class="container u-margin-bottom-medium">
+                <div class="row center-all">
+                    <div class="col-md-6">
+                        <div class="section-title ">
+                            <h2 class="section-title--text">HAPPY CLIENTS</h2>
+                            <p class="section-title--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Praesentium nam enim.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="main__slider">
+                            <div class="col-md-12 happyClients__text">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all happyClients__text-text-color-default mt-5">
+                                            <h3>Happy clinet 1</h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p>Company Name</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all happyClients__text-text-color-default mt-5">
+                                            <h3>Happy clinet 1</h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p>Company Name</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 happyClients__text">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all happyClients__text-text-color-default mt-5">
+                                            <h3>Happy clinet 1</h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p>Company Name</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all happyClients__text-text-color-default mt-5">
+                                            <h3>Happy clinet 1</h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p>Company Name</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="footer u-padding-top-medium" id="footer">
             <div class="footer__copyright">
                 <div class="footer-widgets">
