@@ -65,7 +65,9 @@
 .color-text-white{
 	color: #fff !important;
 }
-
+.color-text-gray{
+	color: #b5b5b7 !important;
+}
 /* -- Shabllone per te gjitha faqet -- */
 
 .section-padding {
