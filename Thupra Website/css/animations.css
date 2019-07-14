@@ -1,40 +1,19 @@
-/* scroll buttoni ne main */
-@keyframes scrollBtn {
-    0% {top: -15px;}
-    100% {top: 3px;}
+@keyframes scrollBtn{
+0%{top:-15px}
+100%{top:3px}
 }
-
-/* Main text */
-@keyframes uptodown {
-    0% {
-        transform: translateY(-4rem);
-    }
-    50% {
-        transform: translateY(1rem);
-    }
-    100% {
-        transform: translateY(0);
-    }
+@keyframes uptodown{
+0%{transform:translateY(-4rem)}
+50%{transform:translateY(1rem)}
+100%{transform:translateY(0)}
 }
-@keyframes righttoleft {
-    0% {
-        transform: translateX(2rem);
-    }
-    50% {
-        transform: translateX(-1rem);
-    }
-    100% {
-        transform: translateX(0);
-    }
+@keyframes righttoleft{
+0%{transform:translateX(2rem)}
+50%{transform:translateX(-1rem)}
+100%{transform:translateX(0)}
 }
-@keyframes downtoup {
-    0% {
-        transform: translateY(4rem);
-    }
-    50% {
-        transform: translateY(-1rem);
-    }
-    100% {
-        transform: translateY(0);
-    }
+@keyframes downtoup{
+0%{transform:translateY(4rem)}
+50%{transform:translateY(-1rem)}
+100%{transform:translateY(0)}
 }

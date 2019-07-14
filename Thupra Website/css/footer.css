@@ -1,154 +1,21 @@
-
-/*--- Footer section ---*/
-
-.footer {
-    background: #272727;
-    font-size: 14px;
-}
-
-.footer-widgets {
-    padding: 100px 0 10px 0;
-    border-top: 4px solid #2e2e2e;
-}
-
-.widget-footer {
-    margin-bottom: 50px;
-}
-
-.widget-footer .widget-title {
-    font-size: 20px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    color: #CCCCCC;
-    font-weight: 400;
-    position: relative;
-}
-
-.widget-footer .widget-title:after {
-    background: #888888;
-    content: "";
-    left: 0;
-    top: 25px;
-    width: 26%;
-    height: 2px;
-    position: absolute;
-}
-
-.widget-content p {
-    color: #888888;
-    padding: 10px;
-    margin-left: -10px
-}
-
-.contacts-widget .contacts-info-list {
-    padding-left: 0;
-    list-style: none;
-    margin-bottom: 0;
-}
-
-.contacts-widget .contacts-info-list > li {
-    position: relative;
-    padding-left: 50px;
-    min-height: 32px;
-    display: table;
-}
-
-.contacts-widget .contacts-info-list > li > .fa {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 15px;
-    font-size: 22px;
-    color: #CCCCCC;
-}
-
-.footer a {
-    color: #888888;
-}
-
-.info-item span {
-    color: #CCCCCC;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.contacts-widget .contacts-info-list > li .info-item {
-    color: #888888;
-    margin-bottom: 20px;
-}
-
-.social-link {
-    margin-left: -50px;
-}
-
-.social-link ul {}
-
-.social-link ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-.social-link ul li a {
-    padding-left: 10px;
-    color: #888888;
-    transition: .3s;
-}
-
-.social-link ul li a:hover {
-    color: #3498DB;
-    cursor: pointer;
-}
-
-.form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.4;
-    background-color: #272727;
-    border: 1px solid #fff;
-    border-radius: 0px;
-    color: #fff;
-}
-
-textarea.form-control {
-    height: 75px;
-    width: 100%;
-}
-
-.footer-copyright {
-    background: #1C1C1C;
-    font-size: 16px;
-    color: #888888;
-    padding: 25px 0;
-    position: relative;
-    text-align: center;
-}
-
-.footer-copyright a {
-    color: #3498DB;
-}
-
-
-/* -- Footer -- */
-
-#scrollup {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    color: #3498db;
-    cursor: pointer;
-    border: 1px solid #3498db;
-    text-align: center;
-    font-size: 24px;
-    line-height: 36px;
-    z-index: 9999;
-    display: none;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
+.footer{background:#272727;font-size:14px}
+.footer-widgets{padding:100px 0 10px 0;border-top:4px solid #2e2e2e}
+.widget-footer{margin-bottom:50px}
+.widget-footer .widget-title{font-size:20px;margin-bottom:30px;text-transform:uppercase;color:#ccc;font-weight:400;position:relative}
+.widget-footer .widget-title:after{background:#888;content:"";left:0;top:25px;width:26%;height:2px;position:absolute}
+.widget-content p{color:#888;padding:10px;margin-left:-10px}
+.contacts-widget .contacts-info-list{padding-left:0;list-style:none;margin-bottom:0}
+.contacts-widget .contacts-info-list>li{position:relative;padding-left:50px;min-height:32px;display:table}
+.contacts-widget .contacts-info-list>li>.fa{display:block;position:absolute;left:0;top:15px;font-size:22px;color:#ccc}
+.footer a{color:#888}
+.info-item span{color:#ccc;font-size:16px;font-weight:400}
+.contacts-widget .contacts-info-list>li .info-item{color:#888;margin-bottom:20px}
+.social-link{margin-left:-50px}
+.social-link ul li{list-style:none;display:inline-block}
+.social-link ul li a{padding-left:10px;color:#888;transition:.3s}
+.social-link ul li a:hover{color:#3498db;cursor:pointer}
+.form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.4;background-color:#272727;border:1px solid #fff;border-radius:0;color:#fff}
+textarea.form-control{height:75px;width:100%}
+.footer-copyright{background:#1c1c1c;font-size:16px;color:#888;padding:25px 0;position:relative;text-align:center}
+.footer-copyright a{color:#3498db}
+#scrollup{position:fixed;bottom:20px;right:20px;width:40px;height:40px;color:#3498db;cursor:pointer;border:1px solid #3498db;text-align:center;font-size:24px;line-height:36px;z-index:9999;display:none;-webkit-transition:all .4s ease 0s;-moz-transition:all .4s ease 0s;-o-transition:all .4s ease 0s;transition:all .4s ease 0s}

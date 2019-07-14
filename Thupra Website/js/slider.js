@@ -3,6 +3,9 @@
         autoplay: true,
        autoplaySpeed: 3100,
        arrows: false,
+       mobileFirst: true,
+       slidesToScroll: 1,
+       swipeToSlide: true,
       });
     });
 

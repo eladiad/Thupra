@@ -1,171 +1,31 @@
-.u-margin-top-medium {
-	margin-top: 4rem;
-}
-.u-margin-top-small {
-	margin-top: 2rem;
-}
-.u-padding-top-medium{
-    padding-top: 4rem;
-}
-.u-padding-bottom-medium{
-    padding-top: 4rem;
-}
-.u-padding-top-small{
-    padding-top: 2rem;
-}
-.u-padding-small{
-	padding: 2rem;
-}
-.u-padding-btn-small{
-	padding: 10px 25px;
-}
-.u-margin-btn-small{
-	margin: 10px;
-}
-.u-margin-bottom-small{
-	margin-bottom: 2rem;
-}
-.u-margin-bottom-medium{
-	margin-bottom: 4rem;
-}
-/* clasa me ngjyr te sections */
-.color-section {
-	background: #252839;
-	/* background: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	background: -webkit-gradient(
-		left top,
-		right bottom,
-		color-stop(0%, rgba(116, 220, 227, 1)),
-		color-stop(100%, rgba(62, 116, 186, 1))
-	);
-	background: -webkit-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	background: -o-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	background: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	background: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1); */
-}
-.color-text {
-	color: rgba(116, 220, 227, 1);
-	color: -moz-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	color: -webkit-gradient(
-		left top,
-		right bottom,
-		color-stop(0%, rgba(116, 220, 227, 1)),
-		color-stop(100%, rgba(62, 116, 186, 1))
-	);
-	color: -webkit-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	color: -o-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	color: -ms-linear-gradient(-45deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	color: linear-gradient(135deg, rgba(116, 220, 227, 1) 0%, rgba(62, 116, 186, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1);
-}
-.color-text-dark{
-	color: #252839 !important;
-}
-.color-text-white{
-	color: #fff !important;
-}
-.color-text-gray{
-	color: #b5b5b7 !important;
-}
-/* -- Shabllone per te gjitha faqet -- */
-
-.section-padding {
-	padding: 60px 0;
-}
-
-.section-title {
-	text-align: center;
-}
-
-.section-title h2 {
-	font-size: 24px;
-	line-height: 36px;
-	color: #fff;
-	font-weight: 700;
-	position: relative;
-}
-
-.section-title p {
-	font-size: 14px;
-	color: #e7feff;
-	margin: 15px auto 60px auto;
-}
-
-.section-background {
-	position: relative;
-}
-
-.section-background:before {
-	background-color: #f2b632;
-	z-index: 0;
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	opacity: 0.8;
-}
-.section-title h2 span {
-	color: #f2b632;
-}
-.center-all {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-/* -- Service -- */
-
-.service-bg {
-	background: #fafafa;
-}
-
-.single-service-box {
-	margin-bottom: 35px;
-	overflow: hidden;
-}
-
-.single-service-box i {
-	font-size: 28px;
-	height: 50px;
-	width: 50px;
-	margin: 3px;
-	border-radius: 100%;
-	line-height: 50px;
-	text-align: center;
-	color: #fff;
-	border: 1px solid #fff;
-	float: left;
-	margin-right: 25px;
-	transition: all .1s ease-in-out;
-}
-
-.single-service-box h2 {
-	margin-top: 10px;
-	font-size: 18px;
-	color: #fff;
-	font-weight: 500;
-}
-
-.single-service-box h5 {
-	color: #e5f6f9;
-	margin-top: 10px;
-	font-size: 10px;
-}
-
-.single-service-box p {
-	margin-top: 22px;
-	color: #e7feff;
-}
-
-.single-service-box:hover i {
-	font-size: 25px;
-	color: #f2b632;
-	background: #fff;
-}
-/* 
-.single-service-box:hover h2 {
-	color: #f2b632;
-} */
+.u-margin-top-medium{margin-top:4rem}
+.u-margin-top-small{margin-top:2rem}
+.u-padding-top-medium{padding-top:4rem}
+.u-padding-top-large{padding-top: 8rem}
+.u-padding-bottom-medium{padding-top:4rem}
+.u-padding-top-small{padding-top:2rem}
+.u-padding-small{padding:2rem}
+.u-padding-btn-small{padding:10px 25px}
+.u-margin-btn-small{margin:10px}
+.u-margin-bottom-small{margin-bottom:2rem}
+.u-margin-bottom-medium{margin-bottom:4rem}
+.color-section{background:#252839}
+.color-text{color:rgba(116,220,227,1);color:-moz-linear-gradient(-45deg,rgba(116,220,227,1) 0,rgba(62,116,186,1) 100%);color:-webkit-gradient(left top,right bottom,color-stop(0,rgba(116,220,227,1)),color-stop(100%,rgba(62,116,186,1)));color:-webkit-linear-gradient(-45deg,rgba(116,220,227,1) 0,rgba(62,116,186,1) 100%);color:-o-linear-gradient(-45deg,rgba(116,220,227,1) 0,rgba(62,116,186,1) 100%);color:-ms-linear-gradient(-45deg,rgba(116,220,227,1) 0,rgba(62,116,186,1) 100%);color:linear-gradient(135deg,rgba(116,220,227,1) 0,rgba(62,116,186,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74dce3', endColorstr='#3e74ba', GradientType=1)}
+.color-text-dark{color:#252839!important}
+.color-text-white{color:#fff!important}
+.color-text-gray{color:#b5b5b7!important}
+.section-padding{padding:60px 0}
+.section-title{text-align:center}
+.section-title h2{font-size:24px;line-height:36px;color:#fff;font-weight:700;position:relative}
+.section-title p{font-size:14px;color:#e7feff;margin:15px auto 60px auto}
+.section-background{position:relative}
+.section-background:before{background-color:#f2b632;z-index:0;content:"";position:absolute;top:0;left:0;right:0;bottom:0;opacity:.8}
+.section-title h2 span{color:#f2b632}
+.center-all{display:flex;align-items:center;justify-content:center}
+.service-bg{background:#fafafa}
+.single-service-box{margin-bottom:35px;overflow:hidden}
+.single-service-box i{font-size:28px;height:50px;width:50px;margin:3px;border-radius:100%;line-height:50px;text-align:center;color:#fff;border:1px solid #fff;float:left;margin-right:25px;transition:all .1s ease-in-out}
+.single-service-box h2{margin-top:10px;font-size:18px;color:#fff;font-weight:500}
+.single-service-box h5{color:#e5f6f9;margin-top:10px;font-size:10px}
+.single-service-box p{margin-top:22px;color:#e7feff}
+.single-service-box:hover i{font-size:25px;color:#f2b632;background:#fff}
