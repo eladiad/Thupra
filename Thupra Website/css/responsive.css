@@ -62,6 +62,8 @@ html{font-size:65%}
 .subscribe-area input[type=email]{width:24%}
 .subscribe-area .email-subscribe input[type=submit]{padding:7px 10px 7px}
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:500px){
 .preloader__img{width:150px;height:auto}
+.about__information{margin-top:15px!important}
+.section-title--text{margin:10px auto!important}
 }

@@ -1,9 +1,11 @@
 *,::after,::before{margin:0;padding:0;box-sizing:inherit}
 html{font-size:62.5%}
 body{font-family:Roboto,sans-serif;font-weight:400;font-size:1.6rem;line-height:1.7;color:#fff;box-sizing:border-box;margin:0}
+p{font-size:11.5px}
 .thupraGrid{display:grid;overflow:hidden;grid-auto-columns:100vw;grid-auto-rows:0 auto auto auto auto auto auto;transition:margin-left .5s}
-.onTop{position:fixed;z-index:9999;top:90%;right:2%;font-size:25px;opacity:0;transition:all .7s}
-.onTop a{color:#f2b632!important}
+.onTop{position:fixed;z-index:9999;top:90%;right:2%;font-size:25px;opacity:0;transition:all 1s}
+.onTop a{font-size:25px;color:#f2b632!important}
+.onTop a:hover{color:#e2860f!important}
 .header{grid-row:1/1;grid-column:1/-1}
 .main{grid-row:2/2;grid-column:1/-1;height:120vh}
 .about{grid-row:3/3;grid-column:1/-1;background-color:#fff}
@@ -38,7 +40,7 @@ body{font-family:Roboto,sans-serif;font-weight:400;font-size:1.6rem;line-height:
 .main__scrollBtn{padding:1rem;position:absolute;border:#fff solid 2px;border-radius:25px;color:#fff;z-index:3;width:auto;height:5rem;display:inline-block;top:90%;left:50%;transform:translate(-50%,-50%)}
 .main__scrollBtn--animation{position:relative;animation:scrollBtn 2s infinite;font-size:1.7rem}
 .p1{font-size:5rem;font-weight:700;animation:uptodown 1s 1}
-.p2{font-size:2rem;animation:righttoleft 1s 1;text-align:center;color:#ccc}
+.p2{font-size:2rem;animation:righttoleft 1s 1;text-align:center;color:#ececec}
 .changeText{color:#252839}
 .main__btn{border:#fff solid 2px;display:inline-block;padding:.75rem 4rem;margin-top:4.5rem;animation:downtoup 1s 1}
 .main__btn--1{font-size:1.6rem}
@@ -52,6 +54,7 @@ body{font-family:Roboto,sans-serif;font-weight:400;font-size:1.6rem;line-height:
 .about__information--btn{border:.2rem solid #fff;color:#fff;display:inline-block;padding:1rem 2rem;text-transform:uppercase;font-size:1.6rem;float:right;transition:all .18s ease-in-out}
 .about__information--btn:hover{background:#fff!important;color:#252839;border:.2rem solid #104a4e;cursor:pointer}
 .about__information b{color:#f2b632}
+.about__information--p1{font-size:14px}
 .happyClients__text-text-color-default{color:#707070!important}
 .slick-slide a,.slick-slide:focus{outline:0}
 .projects button{width:300px}
