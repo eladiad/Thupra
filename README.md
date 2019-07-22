@@ -1,2 +1,0 @@
-# Thupra
-Thupra company
