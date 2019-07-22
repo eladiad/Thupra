@@ -22,3 +22,7 @@
 50%{transform:translatey(-20px)}
 100%{transform:translatey(0)}
 }
+@keyframes spinanime{
+0%{transform:rotate(0)}
+100%{transform:rotate(360deg)}
+}

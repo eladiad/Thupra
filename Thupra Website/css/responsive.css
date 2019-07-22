@@ -1,69 +1,249 @@
-@media only screen and (max-width:60rem){
-.main{height:100%}
-.about{height:100%}
-.services{height:100%}
-.projects{height:100%}
-.happyClients{height:100%}
-.footer{height:100%}
-.breakLine{display:block}
-.header__nav--main{display:none}
-.side-nav{display:block;height:100%;text-transform:uppercase;width:0;position:fixed;z-index:1;top:0;left:0;opacity:.9;overflow-x:hidden;padding-top:60px;transition:.5s}
-.side-nav li{list-style:none}
-.side-nav a{padding:10px 10px 10px 30px;text-decoration:none;font-size:22px;color:#fff;display:block;transition:.3s}
-.side-nav a:hover{color:#3e74ba}
-.side-nav .btn-close{position:absolute;top:0;right:22px;font-size:36px;margin-left:50px;cursor:pointer;color:#fff}
-.openSlide{cursor:pointer}
-.main__video video{object-fit:cover;overflow:hidden}
-.p2{padding:0 1.5rem}
-.main__video{height:100%}
-.social-link{margin:0!important}
-.onTop{font-size:30px}
+@media only screen and (max-width: 60rem) {
+	.main {
+		height: 100%;
+	}
+	.about {
+		height: 100%;
+	}
+	.services {
+		height: 100%;
+	}
+	.projects {
+		height: 100%;
+	}
+	.happyClients {
+		height: 100%;
+	}
+	.footer {
+		height: 100%;
+	}
+	.breakLine {
+		display: block;
+	}
+	.header__nav--main {
+		display: none;
+	}
+	.side-nav {
+		display: block;
+		height: 100%;
+		text-transform: uppercase;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		opacity: .9;
+		overflow-x: hidden;
+		padding-top: 60px;
+		transition: .5s;
+	}
+	.side-nav li {
+		list-style: none;
+	}
+	.side-nav a {
+		padding: 10px 10px 10px 30px;
+		text-decoration: none;
+		font-size: 22px;
+		color: #fff;
+		display: block;
+		transition: .3s;
+	}
+	.side-nav a:hover {
+		color: #3e74ba;
+	}
+	.side-nav .btn-close {
+		position: absolute;
+		top: 0;
+		right: 22px;
+		font-size: 36px;
+		margin-left: 50px;
+		cursor: pointer;
+		color: #fff;
+	}
+	.openSlide {
+		cursor: pointer;
+	}
+	.main__video video {
+		object-fit: cover;
+		overflow: hidden;
+	}
+	.p2 {
+		padding: 0 1.5rem;
+	}
+	.main__video {
+		height: 100%;
+	}
+	.social-link {
+		margin: 0 !important;
+	}
+	.onTop {
+		font-size: 30px;
+	}
+	.main__floating__img {
+		position: absolute;
+		top: 10%;
+		right: 10%;
+		width: 400px;
+		height: 400px;
+	}
+	.loader {
+		width: 400px;
+		height: 400px;
+	}
 }
-@media (min-width:60rem){
-.open-slide{display:none}
+@media (min-width: 60rem) {
+	.open-slide {
+		display: none;
+	}
 }
-@media only screen and (max-width:75em){
-html{font-size:55%}
+@media only screen and (max-width: 75em) {
+	html {
+		font-size: 55%;
+	}
 }
-@media only screen and (max-width:56.25em){
-html{font-size:50%}
+@media only screen and (max-width: 56.25em) {
+	html {
+		font-size: 50%;
+    }
+    
+	.main__floating__img {
+		position: absolute;
+		top: 10%;
+		right: 10%;
+		width: 300px;
+		height: 300px;
+	}
+	.loader {
+		width: 300px;
+		height: 300px;
+	}
 }
-@media only screen and (max-width:37.5em){
-html{font-size:47%}
+@media only screen and (max-width: 37.5em) {
+	html {
+		font-size: 47%;
+    }
+    
+	.main__floating__img {
+		position: absolute;
+		top: 50%;
+        right: 0%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+		width: 250px;
+		height: 250px;
+	}
+	.loader {
+		width: 250px;
+		height: 250px;
+	}
 }
-@media only screen and (min-width:112.5em){
-html{font-size:65%}
+@media only screen and (min-width: 112.5em) {
+	html {
+		font-size: 65%;
+	}
 }
-@media only screen and (max-width:991px){
-.subscribe-area{text-align:center;padding-bottom:15px;margin-bottom:-27px;width:100%}
-.subscribe-area-title{width:53%;padding:0;margin-left:-7px}
-.subscribe-area-title h2{margin-top:10px}
-.subscribe-area-title p{margin-left:-35px}
-.email-subscribe{margin-top:15px;margin-left:70px;margin-right:99px}
-.subscribe-area input[type=email]{width:30%}
-.subscribe-area .email-subscribe input[type=submit]{padding:7px 10px 7px}
-.widget-footer .widget-title::after{width:17%}
+@media only screen and (max-width: 991px) {
+	.subscribe-area {
+		text-align: center;
+		padding-bottom: 15px;
+		margin-bottom: -27px;
+		width: 100%;
+	}
+	.subscribe-area-title {
+		width: 53%;
+		padding: 0;
+		margin-left: -7px;
+	}
+	.subscribe-area-title h2 {
+		margin-top: 10px;
+	}
+	.subscribe-area-title p {
+		margin-left: -35px;
+	}
+	.email-subscribe {
+		margin-top: 15px;
+		margin-left: 70px;
+		margin-right: 99px;
+	}
+	.subscribe-area input[type=email] {
+		width: 30%;
+	}
+	.subscribe-area .email-subscribe input[type=submit] {
+		padding: 7px 10px 7px;
+	}
+	.widget-footer .widget-title::after {
+		width: 17%;
+	}
 }
-@media only screen and (max-width:767px){
-.subscribe-area{text-align:center;padding-bottom:15px;margin-bottom:-27px}
-.subscribe-area-title{float:none;width:100%;padding:0;margin-left:-7px}
-.subscribe-area-title h2{margin-top:10px;font-size:15px}
-.subscribe-area-title p{margin-left:0;font-size:12px}
-.email-subscribe{margin-top:15px;margin-left:-13px;margin-right:0}
-.subscribe-area input[type=email]{width:50%}
-.subscribe-area .email-subscribe input[type=submit]{padding:7px 10px 7px}
-.widget-footer .widget-title::after{width:48%}
-.projects button{width:100%!important}
+@media only screen and (max-width: 767px) {
+	.subscribe-area {
+		text-align: center;
+		padding-bottom: 15px;
+		margin-bottom: -27px;
+	}
+	.subscribe-area-title {
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-left: -7px;
+	}
+	.subscribe-area-title h2 {
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.subscribe-area-title p {
+		margin-left: 0;
+		font-size: 12px;
+	}
+	.email-subscribe {
+		margin-top: 15px;
+		margin-left: -13px;
+		margin-right: 0;
+	}
+	.subscribe-area input[type=email] {
+		width: 50%;
+	}
+	.subscribe-area .email-subscribe input[type=submit] {
+		padding: 7px 10px 7px;
+	}
+	.widget-footer .widget-title::after {
+		width: 48%;
+	}
+	.projects button {
+		width: 100% !important;
+	}
 }
-@media only screen and (min-width:480px) and (max-width:767px){
-.subscribe-area{text-align:center;padding-bottom:15px;margin-bottom:-27px}
-.subscribe-area-title{float:none;width:100%;padding:0;margin-left:-7px}
-.subscribe-area-title h2{margin-top:10px}
-.subscribe-area input[type=email]{width:24%}
-.subscribe-area .email-subscribe input[type=submit]{padding:7px 10px 7px}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.subscribe-area {
+		text-align: center;
+		padding-bottom: 15px;
+		margin-bottom: -27px;
+	}
+	.subscribe-area-title {
+		float: none;
+		width: 100%;
+		padding: 0;
+		margin-left: -7px;
+	}
+	.subscribe-area-title h2 {
+		margin-top: 10px;
+	}
+	.subscribe-area input[type=email] {
+		width: 24%;
+	}
+	.subscribe-area .email-subscribe input[type=submit] {
+		padding: 7px 10px 7px;
+	}
 }
-@media only screen and (max-width:500px){
-.preloader__img{width:150px;height:auto}
-.about__information{margin-top:15px!important}
-.section-title--text{margin:10px auto!important}
+@media only screen and (max-width: 500px) {
+	.preloader__img {
+		width: 150px;
+		height: auto;
+	}
+	.about__information {
+		margin-top: 15px !important;
+	}
+	.section-title--text {
+		margin: 10px auto !important;
+	}
 }
