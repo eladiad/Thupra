@@ -344,3 +344,18 @@ p {
 	width: 300px;
 	height: auto;
 }
+.activeLink {
+	position: relative;
+}
+.activeLink::after {
+	content: "";
+	width: 100%;
+	height: .16rem;
+	position: absolute;
+	border-radius: 555px;
+	bottom: 0;
+	left: 0;
+	transition: all .3s;
+	background-color: #fff;
+	margin: 0 0 -1rem 0;
+}

@@ -49,14 +49,14 @@
                     <a href="index.html"><img src="img/logo Thupra white.png" alt="Thupra logo"></a>
                 </div>
             </div>
-            <div class="header__nav">
+            <div class="header__nav" id="links">
                 <nav class="header__nav--main">
                     <ul>
-                        <li><a href="#about" class="M_border">About</a></li>
-                        <li><a href="#services" class="M_border">Services </a></li>
-                        <li><a href="#projects" class="M_border">Projects</a></li>
-                        <li><a href="#happyClients" class="M_border">Clients</a></li>
-                        <li><a href="#footer" class="M_border">CONTACT</a></li>
+                        <li><a href="#about" class="M_border" onClick="Animate2id('#box1');">About</a></li>
+                        <li><a href="#services" class="M_border" onClick="Animate2id('#box2');">Services </a></li>
+                        <li><a href="#projects" class="M_border" onClick="Animate2id('#box3');">Projects</a></li>
+                        <li><a href="#happyClients" class="M_border" onClick="Animate2id('#box4');">Clients</a></li>
+                        <li><a href="#footer" class="M_border" onClick="Animate2id('#box5');">CONTACT</a></li>
                     </ul>
                 </nav>
                 <span class="open-slide">
@@ -71,11 +71,11 @@
                 <div class="Side" id="Side" onclick="closeSlideMenu()">
                     <div id="side-menu" class="side-nav color-section">
                         <li class="btn-close" onclick="closeSlideMenu()">&times;</li>
-                        <li><a href="#about" class="M_border">about</a></li>
-                        <li><a href="#services" class="M_border">Services</a></li>
-                        <li><a href="#projects" class="M_border">Projects</a></li>
-                        <li><a href="#happyClients" class="M_border">Clients</a></li>
-                        <li><a href="#footer" class="M_border">CONTACT</a></li>
+                        <li><a href="#about" class="M_border" onClick="Animate2id('#box1');">about</a></li>
+                        <li><a href="#services" class="M_border" onClick="Animate2id('#box2');">Services</a></li>
+                        <li><a href="#projects" class="M_border" onClick="Animate2id('#box3');">Projects</a></li>
+                        <li><a href="#happyClients" class="M_border" onClick="Animate2id('#box4');">Clients</a></li>
+                        <li><a href="#footer" class="M_border" onClick="Animate2id('#box5');">CONTACT</a></li>
                     </div>
                 </div>
             </div>
@@ -566,6 +566,7 @@
         <script src="js/preloader.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/aos.js"></script>
+        <script src="js/activeLink.js"></script>
         <script>
             new WOW().init();
             AOS.init();
