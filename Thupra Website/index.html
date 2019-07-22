@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
@@ -109,7 +110,7 @@
                     </div> -->
                 </div>
                 <a href="#about">
-                    <div class="main__scrollBtn ">
+                    <div class="main__scrollBtn">
                         <div class="main__scrollBtn--animation"><i class="fas fa-angle-double-down"></i></div>
                     </div>
                 </a>
@@ -123,8 +124,8 @@
                 <div class="row center-all">
                     <div class="col-md-6">
                         <div class="section-title ">
-                            <h2 class="section-title--text">About Us</h2>
-                            <p class="section-title--text">If you have a problem, we have the solution</p>
+                            <h2 class="section-title--text" data-aos="fade-right">About Us</h2>
+                            <p class="section-title--text" data-aos="fade-up-right">If you have a problem, we have the solution</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +164,7 @@
             </div>
 
             <div class="button center-all mt-5">
-                <a href="#projects" class="btn_v1"><b>Our Projects</b></a>
+                <a href="#projects" class="btn_v1" data-aos="zoom-in-up"><b>Our Projects</b></a>
             </div>
         </div>
         <div class="services center-all u-padding-top-large color-section" id="services">
@@ -171,15 +172,15 @@
                 <div class="row center-all">
                     <div class="col-md-6">
                         <div class="section-title">
-                            <h2>Our <span class="color-text-orange">Services</span></h2>
-                            <p>Geting the right image to help you promote your business more
+                            <h2 data-aos="fade-right">Our <span class="color-text-orange">Services</span></h2>
+                            <p  data-aos="fade-up-right">Geting the right image to help you promote your business more
                                 effectively.</p>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
-                                <div class="single-service-box">
+                                <div class="single-service-box" data-aos="flip-left">
                                     <i class="fas fa-desktop"></i>
                                     <h2>WEB PAGES</h2>
                                     <h5>Professional and affordable websites from a team you can trust.</h5>
@@ -189,7 +190,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <div class="single-service-box ">
+                                <div class="single-service-box " data-aos="flip-left">
                                     <i class="fas fa-swatchbook"></i>
                                     <h2>GRAPHIC DESIGN</h2>
                                     <h5>Design makes you human. Great design makes you memorable.</h5>
@@ -198,7 +199,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <div class="single-service-box ">
+                                <div class="single-service-box " data-aos="flip-left">
                                     <i class="fas fa-chart-bar"></i>
                                     <h2>ANALYSTICS</h2>
                                     <h5>Website Analysis</h5>
@@ -214,7 +215,7 @@
                             </div>
 
                             <div class="col-md-6 col-sm-6">
-                                <div class="single-service-box ">
+                                <div class="single-service-box " data-aos="flip-left">
                                     <i class="fas fa-desktop"></i>
                                     <h2>CUSTOM MOBILE FRIENDLY WEBSITES</h2>
                                     <h5>MOBILE WEBSITES</h5>
@@ -224,7 +225,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <div class="single-service-box ">
+                                <div class="single-service-box " data-aos="flip-left">
                                     <i class="fas fa-desktop"></i>
                                     <h2>Logo Design</h2>
                                     <h5>Eye-catching and expressive logo.</h5>
@@ -247,28 +248,29 @@
                 <div class="row center-all">
                     <div class="col-md-6">
                         <div class="section-title">
-                            <h2 class="color-text-dark">Our <span>Projects</span></h2>
-                            <p class="color-text-dark">A solid project will be found, when you have our crew around</p>
+                            <h2 data-aos="fade-right" class="color-text-dark">Our <span>Projects</span></h2>
+                            <p data-aos="fade-up-right"  class="color-text-dark">A solid project will be found, when you have our crew around</p>
+
                         </div>
                     </div>
                     <div id="myBtnContainer" class="col-lg-12 center-all u-margin-top-small u-margin-bottom-small">
 
-                        <button type="button"
+                        <button type="button" data-aos="zoom-in-right"
                             class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
                             onclick="filterSelection('all')">
                             <h5>All</h5>
                         </button>
-                        <button type="button"
+                        <button type="button" data-aos="zoom-in-up"
                             class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
                             onclick="filterSelection('web')">
                             <h5>Website</h5>
                         </button>
-                        <button type="button"
+                        <button type="button" data-aos="zoom-in-left"
                             class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
                             onclick="filterSelection('des')">
                             <h5>Design</h5</button> </div> </div> <div class="row grid cs-style-18">
                                 <div class="col-lg-12">
-                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12" data-aos="flip-down">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName1.jpg" alt="img01">
                                             <figcaption>
@@ -278,7 +280,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv des col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv des col-lg-4 col-md-12 col-sm-12"  data-aos="flip-up">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectDesName1.jpg" alt="img01">
                                             <figcaption>
@@ -288,7 +290,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12" data-aos="flip-down">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName3.jpg" alt="img01">
                                             <figcaption>
@@ -298,7 +300,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv des col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv des col-lg-4 col-md-12 col-sm-12"  data-aos="flip-up">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName2.jpg" alt="img01">
                                             <figcaption>
@@ -308,7 +310,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12" data-aos="flip-down">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName1.jpg" alt="img01">
                                             <figcaption>
@@ -318,7 +320,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12" data-aos="flip-down">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName2.jpg" alt="img01">
                                             <figcaption>
@@ -328,7 +330,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv des col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv des col-lg-4 col-md-12 col-sm-12"  data-aos="flip-up">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName3.jpg" alt="img01">
                                             <figcaption>
@@ -338,7 +340,7 @@
                                         </figure>
                                     </div>
 
-                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12">
+                                    <div class="filterDiv web col-lg-4 col-md-12 col-sm-12" data-aos="flip-down">
                                         <figure>
                                             <img class="img-responsive" src="img/ProjectWebName1.jpg" alt="img01">
                                             <figcaption>
@@ -358,8 +360,8 @@
                     <div class="row center-all">
                         <div class="col-md-6">
                             <div class="section-title ">
-                                <h2 class="color-text-white"><span class="color-text-orange">CLIENTS</span></h2>
-                                <p class="color-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                <h2 data-aos="fade-right"  class="color-text-white"><span class="color-text-orange">CLIENTS</span></h2>
+                                <p  data-aos="fade-up-right" class="color-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Praesentium nam enim.</p>
                             </div>
                         </div>
@@ -559,8 +561,10 @@
         <script src="js/onTop.js"></script>
         <script src="js/preloader.js"></script>
         <script src="js/wow.min.js"></script>
+        <script src="js/aos.js"></script>
         <script>
             new WOW().init();
+            AOS.init();
         </script>
 </body>
 
