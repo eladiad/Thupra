@@ -16,11 +16,11 @@
 .color-text-gray{color:#b5b5b7!important}
 .section-padding{padding:60px 0}
 .section-title{text-align:center}
-.section-title h2{font-size:24px;line-height:36px;color:#fff;font-weight:700;position:relative}
+.section-title h2{font-size:24px;line-height:36px;color:#f2b632;font-weight:700;position:relative}
 .section-title p{font-size:14px;color:#e7feff;margin:15px auto 60px auto}
 .section-background{position:relative}
 .section-background:before{background-color:#f2b632;z-index:0;content:"";position:absolute;top:0;left:0;right:0;bottom:0;opacity:.8}
-.section-title h2 span{color:#f2b632}
+.section-title h2 span{color:#252839}
 .center-all{display:flex;align-items:center;justify-content:center}
 .service-bg{background:#fafafa}
 .single-service-box{margin-bottom:35px;overflow:hidden}
@@ -29,7 +29,7 @@
 .single-service-box h2::after{content:"";width:0;border-bottom:0 solid #fff;position:absolute;bottom:0;left:0;transition:all .5s}
 .single-service-box h2::before{content:"";width:0;border-bottom:0 solid #fff;position:absolute;top:0;right:0;transition:all .5s}
 .single-service-box h5{color:#b9b9b9b6;margin-top:10px;font-size:14px}
-.single-service-box p{margin-top:22px;color:#e7feff}
+.single-service-box p{margin-top:22px;color:#e9ebf0}
 .single-service-box:hover i{font-size:25px;color:#f2b632;background:#fff}
 .single-service-box:hover h2{color:#f2b632}
 .single-service-box:hover h2::after{width:100%;border-bottom:1px solid #fff}
@@ -38,3 +38,7 @@
 ::-webkit-scrollbar-track{box-shadow:inset 0 0 5px #d3d3d3}
 ::-webkit-scrollbar-thumb{background:#252839}
 ::-webkit-scrollbar-thumb:hover{background:#f2b632}
+
+.color-text-orange{
+    color: #f2b632 !important;
+}
