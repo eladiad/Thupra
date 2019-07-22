@@ -17,3 +17,8 @@
 50%{transform:translateY(-1rem)}
 100%{transform:translateY(0)}
 }
+@keyframes float{
+0%{transform:translatey(0)}
+50%{transform:translatey(-20px)}
+100%{transform:translatey(0)}
+}
