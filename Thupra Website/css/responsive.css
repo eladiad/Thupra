@@ -92,8 +92,17 @@
 	}
 }
 @media (min-width: 60rem) {
-	.open-slide {
+	.open-slide , .Side {
 		display: none;
+	}
+	.Side{
+		width: 0px !important;
+	}
+	.side-menu{
+		width: 0px !important;
+	}
+	.thupraGrid{
+		margin-left: 0px !important;
 	}
 }
 @media only screen and (max-width: 75em) {

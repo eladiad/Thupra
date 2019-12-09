@@ -61,22 +61,24 @@
                 </nav>
                 <span class="open-slide">
                     <div class="openSlide" onclick="openSlideMenu()">
-                        <svg width="30" height="30">
-                            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
-                            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
-                            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
-                        </svg>
+                        <div id="nav-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                 </span>
                 <div class="Side" id="Side" onclick="closeSlideMenu()">
-                    <div id="side-menu" class="side-nav color-section">
-                        <li class="btn-close" onclick="closeSlideMenu()">&times;</li>
-                        <li><a href="#about" class="M_border" onClick="Animate2id('#box1');">about</a></li>
-                        <li><a href="#services" class="M_border" onClick="Animate2id('#box2');">Services</a></li>
-                        <li><a href="#projects" class="M_border" onClick="Animate2id('#box3');">Projects</a></li>
-                        <li><a href="#happyClients" class="M_border" onClick="Animate2id('#box4');">Clients</a></li>
-                        <li><a href="#footer" class="M_border" onClick="Animate2id('#box5');">CONTACT</a></li>
-                    </div>
+                </div>
+                
+                <div id="side-menu" class="side-nav color-section">
+                    <li class="btn-close" onclick="closeSlideMenu()">&times;</li>
+                    <li><a href="#about" class="M_border" onClick="Animate2id('#box1');">about</a></li>
+                    <li><a href="#services" class="M_border" onClick="Animate2id('#box2');">Services</a></li>
+                    <li><a href="#projects" class="M_border" onClick="Animate2id('#box3');">Projects</a></li>
+                    <li><a href="#happyClients" class="M_border" onClick="Animate2id('#box4');">Clients</a></li>
+                    <li><a href="#footer" class="M_border" onClick="Animate2id('#box5');">CONTACT</a></li>
                 </div>
             </div>
         </div>
@@ -284,7 +286,7 @@
                     </div>
                 </div>
                 <div class="row grid cs-style-18">
-                    <div class="col-lg-12" data-aos="flip-down">
+                    <div class="col-lg-12" data-aos="fade-right">
                         <div class="filterDiv web col-lg-4 col-md-12 col-sm-12">
                             <figure>
                                 <img class="img-responsive" src="img/ProjectWebName1.jpg" alt="img01">
@@ -475,7 +477,7 @@
                         <div class="col-lg-12 row">
                             <div class="col-md-9">
                                 <!-- Widget :: Contact us -->
-                                <div class="latest-posts-widget widget widget-footer"  data-aos="zoom-in-up">
+                                <div class="latest-posts-widget widget widget-footer" data-aos="zoom-in-up">
                                     <h3 data-aos="fade-right" class="widget-title">Contact us</h3>
                                     <div class="widget-content">
                                         <form id="contact-form" class="contact" name="contact-form" method="post"
@@ -583,6 +585,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/activeLink.js"></script>
+    <script src="js/hamburgerNav.js"></script>
     <script>
         new WOW().init();
         AOS.init();

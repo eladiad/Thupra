@@ -7,4 +7,5 @@ $('document').ready(function() {
 });
 
 function Animate2id(id) {
+    closeSlideMenu();
 }
