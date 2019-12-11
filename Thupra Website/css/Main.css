@@ -46,6 +46,7 @@ p {
 .header {
 	grid-row: 1/1;
 	grid-column: 1/-1;
+	transition: margin-left .5s;
 }
 .main {
 	grid-row: 2/2;
@@ -452,6 +453,7 @@ p {
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
 	cursor: pointer;
+	transition: width .5s;
   }
   
   #nav-icon span {

@@ -48,3 +48,6 @@
 .cursore--pointer{
     cursor: pointer;
 }
+.text__align--right{
+    text-align: right;
+}
