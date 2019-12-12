@@ -51,3 +51,6 @@
 .text__align--right{
     text-align: right;
 }
+.display-block{
+    display: block !important;
+}
