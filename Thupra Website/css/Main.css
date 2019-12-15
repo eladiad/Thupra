@@ -30,14 +30,14 @@ p {
 .onTop {
 	position: fixed;
 	z-index: 9999;
-	top: 90%;
-	right: 2%;
+	top: 91.5%;
+	right: 2.5%;
 	font-size: 25px;
 	opacity: 0;
 	transition: all 1s;
 }
 .onTop a {
-	font-size: 25px;
+	font-size: 32px;
 	color: #f2b632 !important;
 }
 .onTop a:hover {

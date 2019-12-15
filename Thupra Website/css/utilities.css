@@ -54,3 +54,18 @@
 .display-block{
     display: block !important;
 }
+.animation__delay--1{
+    animation-delay: 0.01s !important;
+}
+.animation__delay--2{
+    animation-delay: 0.03s !important;
+}
+.animation__delay--3{
+    animation-delay: 0.07s !important;
+}
+.animation__delay--4{
+    animation-delay: 0.11s !important;
+}
+.animation__delay--5{
+    animation-delay: 0.15s !important;
+}
