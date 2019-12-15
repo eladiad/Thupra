@@ -69,3 +69,7 @@
 .animation__delay--5{
     animation-delay: 0.15s !important;
 }
+.submit__btn{
+    font-size: 3rem;
+    padding: 0 2rem;
+}
