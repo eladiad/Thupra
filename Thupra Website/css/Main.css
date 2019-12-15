@@ -380,7 +380,7 @@ p {
 .main__floating__img {
 	position: absolute;
 	top: 10%;
-	right: 10%;
+	right: 5%;
 	background-color: #fff;
 	border-radius: 555px;
 	width: 300px;
