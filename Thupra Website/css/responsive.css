@@ -82,12 +82,12 @@
 		position: absolute;
 		top: 10%;
 		right: 10%;
-		width: 400px;
-		height: 400px;
+		width: 200px;
+		height: 200px;
 	}
 	.loader {
-		width: 400px;
-		height: 400px;
+		width: 200px;
+		height: 200px;
 	}
 }
 @media (min-width: 60rem) {
@@ -118,12 +118,12 @@
 		position: absolute;
 		top: 10%;
 		right: 10%;
-		width: 300px;
-		height: 300px;
+		width: 200px;
+		height: 200px;
 	}
 	.loader {
-		width: 300px;
-		height: 300px;
+		width: 200px;
+		height: 200px;
 	}
 }
 @media only screen and (max-width: 37.5em) {
@@ -133,16 +133,14 @@
     
 	.main__floating__img {
 		position: absolute;
-		top: 50%;
-        right: 0%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-		width: 250px;
-		height: 250px;
+		top: 10%;
+        right: 10%;
+		width: 200px;
+		height: 200px;
 	}
 	.loader {
-		width: 250px;
-		height: 250px;
+		width: 200px;
+		height: 200px;
 	}
 }
 @media only screen and (min-width: 112.5em) {
