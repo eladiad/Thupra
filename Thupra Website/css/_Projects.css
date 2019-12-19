@@ -1,0 +1,10 @@
+
+.thupraGrid--Project {
+	display: grid;
+	overflow: hidden;
+	grid-auto-columns: 100vw;
+	grid-auto-rows: auto auto auto;
+}
+.gallery{
+    
+}
