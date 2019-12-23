@@ -1,0 +1,45 @@
+
+.thupraGrid--Project {
+	display: grid;
+	overflow: hidden;
+	grid-auto-columns: 100vw;
+	grid-auto-rows: auto auto auto auto;
+}
+.frontInfo{
+	grid-row: 1/1;
+	grid-column: 1/-1;
+	height: 100vh;
+}
+.galleryInfo{
+	grid-row: 2/2;
+	grid-column: 1/-1;
+	height: 100%;
+}
+.bottomInfo{
+	grid-row: 3/3;
+	grid-column: 1/-1;
+	height: 100%;
+}
+.footerInfo{
+	grid-row: 4/4;
+	grid-column: 1/-1;
+	height: 100%;
+}
+.bg-odd{
+	background-color: aqua;
+}
+.bg-even{
+	background-color: orangered;
+}
+.galleryInfo .bg-odd a img , .galleryInfo .bg-even a img{
+	width: 100%;
+}
+.galleryInfo .prl{
+	padding: 0 10%;
+}
+.galleryInfo p{
+	margin: 0 !important;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color:#a0a0a0;
+}

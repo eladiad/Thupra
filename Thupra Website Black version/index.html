@@ -1,0 +1,585 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THUPRA | COMPANY COMING SOON</title>
+    <!-- Linkat -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136590539-2"></script>
+    <script src="js/gtag2.js"></script>
+    <link rel="stylesheet" href="css/Main.css">
+    <!--Icon web page . ndrrohet  me llogo -->
+    <link rel="icon" type="img/png" href="img/logo Thupra black.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="other/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="other/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body id="top">
+    <!-- preloader -->
+    <div class="preloader center-all">
+        <div class="preloader__img wow pulse slow infinite">
+            <img draggable="false" src="img/thupra-svg.svg" alt="thupra-logo">
+        </div>
+    </div>
+    <div class="thupraGrid" id="thupraGrid">
+        <div class="header" id="header">
+            <div class="header__logo">
+                <div class="header__logo--img">
+                    <a href="index.html"><img draggable="false" src="img/logo Thupra white.png" alt="Thupra logo"></a>
+                </div>
+            </div>
+            <div class="header__nav" id="links">
+                <nav class="header__nav--main">
+                    <ul>
+                        <li><a href="#about" class="M_border" onClick="Animate2id('#box1');">About</a></li>
+                        <li><a href="#services" class="M_border" onClick="Animate2id('#box2');">Services </a></li>
+                        <li><a href="#projects" class="M_border" onClick="Animate2id('#box3');">Projects</a></li>
+                        <li><a href="#happyClients" class="M_border" onClick="Animate2id('#box4');">Clients</a></li>
+                        <li><a href="#footer" class="M_border" onClick="Animate2id('#box5');">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <span class="open-slide">
+                    <div class="openSlide" onclick="openSlideMenu()">
+                        <div id="nav-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+                <div class="Side" id="Side" onclick="closeSlideMenu()">
+                </div>
+
+                <div id="side-menu" class="side-nav color-section">
+                    <li class="btn-close text__align--right" onclick="closeSlideMenu()">&times;</li>
+                    <li id="link-side-1"><a href="#about" class="M_border" onClick="Animate2id('#box1');">about</a></li>
+                    <li id="link-side-2" class="animation__delay--2"><a href="#services" class="M_border"
+                            onClick="Animate2id('#box2');">Services</a></li>
+                    <li id="link-side-3" class="animation__delay--3"><a href="#projects" class="M_border"
+                            onClick="Animate2id('#box3');">Projects</a></li>
+                    <li id="link-side-4" class="animation__delay--4"><a href="#happyClients" class="M_border"
+                            onClick="Animate2id('#box4');">Clients</a></li>
+                    <li id="link-side-5" class="animation__delay--5"><a href="#footer" class="M_border"
+                            onClick="Animate2id('#box5');">CONTACT</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="main center-all" id="main">
+            <div class="main__image">
+                <img draggable="false" src="img/Main Photo/Lines.png" alt="">
+            </div>
+            <div class="main__img--thupra">
+                <img draggable="false" src="img/Main Photo/THUPRA-OUTLINE.svg" alt="">
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="main__text">
+                            <div class="main__text--text mt-5">
+                                <p class="p1">Style up your <br class="main__text--text--br"><span
+                                        class="changeText"></span></p>
+                                <p class="p2">You provide the vision, we provide the solution</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 center-all">
+                        <div class="main__img--desk">
+                            <img draggable="false" src="img/Main Photo/desk-laptop.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-5 main__font__size--socialMedia">
+                    <a href="https://www.facebook.com/thupra.co/" target="_blank"><i
+                            class="fab fa-facebook-f color-text-orange"></i></a>
+                    <a href="https://www.instagram.com/thupra_xk/" target="_blank"><i
+                            class="fab fa-instagram color-text-orange"></i></a>
+                    <a href="https://www.linkedin.com/in/eladiad-sadiku-6b9b25173/" target="_blank"><i
+                            class="fab fa-linkedin-in color-text-orange"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about">
+            <div class="main__scrollBtn">
+                <div class="main__scrollBtn--animation"><i class="fas fa-angle-double-down"></i>
+                </div>
+            </div>
+        </a>
+        <div class="about" id="about" style="background-color: #F4F4F4">
+            <div class="container u-margin-bottom-large">
+                <div class="col-md-12">
+                    <div class="section-title ">
+                        <h2 class="section-title--text" data-aos="fade-right">About Us</h2>
+                        <p class="section-title--text" data-aos="fade-up-right">If you have a problem, we have the
+                            solution</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about__slider col-md-6">
+                        <img draggable="false" src="img/adeolu-eletu-13086-unsplash.jpg" alt="about us image">
+                        <img draggable="false" src="img/nesa-by-makers-736784-unsplash.jpg" alt="about us image">
+                        <img draggable="false" src="img/tim-gouw-79563-unsplash.jpg" alt="about us image">
+                    </div>
+                    <div class="about__information col-md-6 center-all fd-column">
+                        <p class="about__information--p1">
+                            <b>WHO ARE WE ?</b>
+                            THUPRA is a software development and graphic designing Company specialized in development of
+                            scalable enterprise applications.</br>
+                            <br><b>WHAT DO WE DO ?</b>
+                            We use the latest and greatest technologies that enable businesses to reach out to their
+                            costumer in all mediums regardless the platform they use.
+                        </p>
+                        <!-- <p class="about__information--p1">
+                            <b>WHEN DO WE DO IT ?</b>
+                            You can find us available 24 hours per day, we are ready for you.<br>
+                            <b><br> DO WE DO IT ?</b>
+                            You can contact us on our phone number +38345391450, or you can come at our offices which are
+                            temporary in Vushtrri.
+
+                        </p></br> -->
+                        <p class="about__information--p1">
+                            <b>WHY DO WE DO IT ?</b>
+                            We do it because we love programming and graphic designs, we want to help people have they
+                            own web pages and designs.</br>
+                            <!-- <b><br> DO WE DO IT ?</b>
+                            First we solve the problem, then we write the CODE. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services center-all u-padding-top-large color-section" id="services">
+            <div class="container">
+                <div class="row center-all">
+                    <div class="col-md-6">
+                        <div class="section-title">
+                            <h2 data-aos="fade-right">Our <span class="color-text-orange">Services</span></h2>
+                            <p data-aos="fade-up-right">Geting the right image to help you promote your business more
+                                effectively.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single-service-box cursore--pointer col-md-12" data-aos="fade-right">
+                                    <i class="fas fa-desktop"></i>
+                                    <h2>WEB PAGES</h2>
+                                    <h5>Professional and affordable websites from a team you can trust.</h5>
+                                    <p>All websites are individual, but some are more individual than others. If your
+                                        business requirements are greater than those provided for in our other packages,
+                                        never fear. We will design your site from scratch as a custom build.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single-service-box cursore--pointer col-md-12" data-aos="fade-right">
+                                    <i class="fas fa-swatchbook"></i>
+                                    <h2>GRAPHIC DESIGN</h2>
+                                    <h5>Design makes you human. Great design makes you memorable.</h5>
+                                    <p>Our passionate graphic design team and brand strategists employ extraordinary
+                                        marketing research skills to create a unique identity for your company</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single-service-box cursore--pointer col-md-12" data-aos="fade-right">
+                                    <i class="fas fa-chart-bar"></i>
+                                    <h2>ANALYSTICS</h2>
+                                    <h5>Website Analysis</h5>
+                                    <p>A "Site Analysis" is an essential part of the SEO process for tracking the
+                                        website and measuring two, quality and quality traffic on the website. How
+                                        accurate is your website? How to increase the online presence of your site in
+                                        search engines? The answers to these key questions come when we make a
+                                        significant analysis The Website plays an important role because only after
+                                        analyzing a website we define long-term and short-term business goals by using
+                                        the largest international platform <br><span class="color-text-white"><b>Google
+                                                Analytics</b></span></p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single-service-box cursore--pointer col-md-12" data-aos="fade-right">
+                                    <i class="fas fa-desktop"></i>
+                                    <h2>MOBILE WEBSITES</h2>
+                                    <h5>CUSTOM MOBILE FRIENDLY WEBSITES</h5>
+                                    <p>Experts tell us that over 70% of all traffic to websites will comes from
+                                        smartphones and tablets. Make sure your business is ready for the revolution
+                                        with a mobile-specific website from Inspire.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single-service-box cursore--pointer col-md-12" data-aos="fade-right">
+                                    <i class="fas fa-pencil-alt"></i>
+                                    <h2>Logo Design</h2>
+                                    <h5>Eye-catching and expressive logo.</h5>
+                                    <p>We will work with you to get the right image to help you promote your business
+                                        more effectively. We're really very proud of the wonderful work our graphic
+                                        designers do. From Business Branding packages <span class="color-text">(logos,
+                                            business stationery,
+                                            flyers)</span> to creating amazing web storyboards that give our websites
+                                        their 'look
+                                        and feel'.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="single-service-box cursore--pointer col-md-12" data-aos="fade-right">
+                                    <i class="fas fa-hand-holding-heart"></i>
+                                    <h2>Passion</h2>
+                                    <h5>Bring our passion to you.</h5>
+                                    <p>We like what we do and make sure that we bring our passion to you.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects u-padding-top-large center-all" id="projects" style="background-color: #F4F4F4">
+            <div class="container">
+                <div class="row center-all">
+                    <div class="col-md-6">
+                        <div class="section-title">
+                            <h2 data-aos="fade-right" class="color-text-dark">Our <span>Projects</span></h2>
+                            <p data-aos="fade-up-right" class="color-text-dark">A solid project will be found, when you
+                                have our crew around</p>
+                        </div>
+                    </div>
+                    <div id="myBtnContainer"
+                        class="col-lg-12 filter center-all u-margin-top-small u-margin-bottom-small">
+                        <button id="allWebDes" data-name='*' type="button" data-aos="zoom-in-right"
+                            class="btn active color-section color-text-white u-padding-btn-small u-margin-btn-small"
+                            onclick="filterSelection('all')">
+                            <h5>All</h5>
+                        </button>
+                        <button data-name=".web" type="button" data-aos="zoom-in-up"
+                            class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
+                            onclick="filterSelection('web')">
+                            <h5>Website</h5>
+                        </button>
+                        <button data-name=".des" type="button" data-aos="zoom-in-left"
+                            class="btn color-section color-text-white u-padding-btn-small u-margin-btn-small"
+                            onclick="filterSelection('des')">
+                            <h5>Design</h5>
+                        </button>
+                    </div>
+                </div>
+                <div class="row grid cs-style-18">
+                    <div class="col-lg-12" data-aos="fade-right">
+                        <div class="filterDiv grid-item cursore--pointer web col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <img draggable="false" class="img-responsive" src="img/ProjectWebName1.jpg" alt="img01">
+                                <figcaption>
+                                    <h3 class="text-center">Bob Dylan</h3>
+                                    <p class="text-center">Once upon a time</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer web col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <img draggable="false" class="img-responsive" src="img/ProjectWebName2.jpg" alt="img01">
+                                <figcaption>
+                                    <h3 class="text-center">Bob Dylan</h3>
+                                    <p class="text-center">Once upon a time</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer web col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <img draggable="false" class="img-responsive" src="img/ProjectWebName3.jpg" alt="img01">
+                                <figcaption>
+                                    <h3 class="text-center">Bob Dylan</h3>
+                                    <p class="text-center">Once upon a time</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer des col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <video autoplay muted controls="false" loop class="img-responsive"
+                                    src="video/ProjectWebNameVideo1.mp4" alt="img01">
+                                    <figcaption>
+                                        <h3 class="text-center">Bob Dylan</h3>
+                                        <p class="text-center">Once upon a time</p>
+                                    </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer des col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <video autoplay muted controls="false" loop class="img-responsive"
+                                    src="video/ProjectWebNameVideo2.mp4" alt="img01">
+                                    <figcaption>
+                                        <h3 class="text-center">Bob Dylan</h3>
+                                        <p class="text-center">Once upon a time</p>
+                                    </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer des col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <video autoplay muted controls="false" loop class="img-responsive"
+                                    src="video/ProjectWebNameVideo3.mp4" alt="img01">
+                                    <figcaption>
+                                        <h3 class="text-center">Bob Dylan</h3>
+                                        <p class="text-center">Once upon a time</p>
+                                    </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer web col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <img draggable="false" class="img-responsive" src="img/ProjectWebName5.jpg" alt="img01">
+                                <figcaption>
+                                    <h3 class="text-center">Bob Dylan</h3>
+                                    <p class="text-center">Once upon a time</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="filterDiv grid-item cursore--pointer web col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <img draggable="false" class="img-responsive" src="img/ProjectWebName6.jpg" alt="img01">
+                                <figcaption>
+                                    <h3 class="text-center">Bob Dylan</h3>
+                                    <p class="text-center">Once upon a time</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="filterDiv grid-item cursore--pointer web col-lg-4 col-md-12 col-sm-12">
+                            <figure>
+                                <img draggable="false" class="img-responsive" src="img/ProjectWebName7.jpg" alt="img01">
+                                <figcaption>
+                                    <h3 class="text-center">Bob Dylan</h3>
+                                    <p class="text-center">Once upon a time</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="happyClients u-padding-top-large center-all color-section color-text-white" id="happyClients">
+            <div class="container u-margin-bottom-medium">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2 data-aos="fade-right" class="color-text-orange">CLIENTS</h2>
+                        <p data-aos="fade-up-right" class="color-text-white">The customer’s perception is our
+                            reality.</p>
+                        <p data-aos="fade-up-right" class="color-text-white">Our staff is waiting for YOU!</p>
+                    </div>
+                    <!-- <div class="col-md-12">
+                        <div class="main__slider">
+                            <div class="col-md-12 happyClients__text">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all mt-5">
+                                            <h3><span class="color-text-gray">Happy client 1</span></h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+                                                expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam
+                                                ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p class="color-text-gray">Company Name</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all mt-5">
+                                            <h3><span class="color-text-gray">Happy client 2</span></h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+                                                expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam
+                                                ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p class="color-text-gray">Company Name</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 happyClients__text">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all mt-5">
+                                            <h3><span class="color-text-gray">Happy client 3</span></h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+                                                expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam
+                                                ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p class="color-text-gray">Company Name</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="col-md-12 center-all mt-5">
+                                            <h3><span class="color-text-gray">Happy client 4</span></h3>
+                                        </div>
+                                        <div class="col-md-12 mt-3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+                                                expedita
+                                                odit, corrupti nobis doloremque aut, autem est possimus unde iusto
+                                                eligendi. Hic mollitia, ipsum modi aut eligendi perferendis ullam
+                                                ea.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-12 center-all mt-5" style="flex-direction: column;">
+                                            <h4><b>Emri Mbiemri</b></h4>
+                                            <p class="color-text-gray">Company Name</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" id="footer">
+            <div class="footer__copyright" style="background-color: #F4F4F4;">
+                <div class="footer-widgets">
+                    <div class="container">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="kutia-form contacts-widget widget widget-footer">
+                                        <h3 data-aos="fade-right" class="widget-title">Contact US</h3>
+                                        <form action="" method="POST">
+                                            <div class="inputBox" data-aos="fade-right">
+                                                <input type="text" name="NAME" required="Name">
+                                                <label>Enter Name</label>
+                                            </div>
+                                            <div class="inputBox" data-aos="fade-right">
+                                                <input type="email" name="E-mail" required="E-mail">
+                                                <label>Email</label>
+                                            </div>
+                                            <div class="inputBox" data-aos="fade-right">
+                                                <textarea required="Message" name="Message"></textarea>
+                                                <label>Message</label>
+                                            </div>
+                                            <button type="submit" data-aos="fade-up-right"
+                                                class="col-md-12 btn btn-outline-dark submit__btn">Send</button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <!-- Widget :: Address Info -->
+                                    <div class="contacts-widget widget widget-footer">
+                                        <h3 data-aos="fade-right" class="widget-title">Address</h3>
+                                        <div class="widget-content">
+                                            <ul class="contacts-info-list">
+                                                <li>
+                                                    <i data-aos="fade-up-right" class="fa fa-map-marker"></i>
+                                                    <div data-aos="fade-up-right" class="info-item"><span>Address</span>
+                                                        <br> Vushtrri
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <i data-aos="fade-up-right" class="fa fa-mobile"></i>
+                                                    <div data-aos="fade-up-right" class="info-item"><span>Phone</span>
+                                                        <br> +38345391450
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <i data-aos="fade-up-right" class="fa fa-envelope"></i>
+                                                    <div data-aos="fade-up-right" class="info-item"><span>Email</span>
+                                                        <br><a href="#">info@thupra.com</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 wow animated zoomIn"> Copyright @ 2019 Power by <a
+                                    href="http://thupra.com/" class="wow zoomInDown">Thupra</a>
+                                All Rights Reserved. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="onTop" id="onTop"><a href="#top"><i class="fas fa-chevron-circle-up"></i></a></div>
+
+
+
+
+
+
+    <!-- Scriptat  -->
+    <script src="js/slidemenu.js"></script>
+    <script src="js/navMenuScroll.js"></script>
+    <script src="js/smothScrolling.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="other/slick-1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/typed.min.js"></script>
+    <script type="text/javascript" src="js/slider.js"></script>
+    <script type="text/javascript" src="js/textChangeBreakLine.js"></script>
+    <script type="text/javascript" src="js/textChange.js"></script>
+    <script src="js/filterProjects.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/onTop.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/activeLink.js"></script>
+    <script src="js/hamburgerNav.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/isotopFilter.js"></script>
+    <!-- <script src="js/rendomPic.js"></script> -->
+    <script src="js/clickAllWebDesBtn.js"></script>
+    <script>
+        new WOW().init();
+        AOS.init();
+    </script>
+</body>
+
+</html>

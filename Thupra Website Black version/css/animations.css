@@ -1,0 +1,43 @@
+@keyframes scrollBtn{
+0%{top:-15px}
+100%{top:3px}
+}
+@keyframes uptodown{
+0%{transform:translateY(-4rem)}
+50%{transform:translateY(1rem)}
+100%{transform:translateY(0)}
+}
+@keyframes righttoleft{
+0%{transform:translateX(2rem)}
+50%{transform:translateX(-1rem)}
+100%{transform:translateX(0)}
+}
+@keyframes downtoup{
+0%{transform:translateY(4rem)}
+50%{transform:translateY(-1rem)}
+100%{transform:translateY(0)}
+}
+@keyframes float{
+0%{transform:translatey(0)}
+50%{transform:translatey(-20px)}
+100%{transform:translatey(0)}
+}
+@keyframes spinanime{
+0%{transform:rotate(0)}
+100%{transform:rotate(360deg)}
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+@keyframes fadeOutRight {
+    0% {
+       opacity: 1;
+       transform: translatey(0);
+    }
+    100% {
+       opacity: 0;
+       transform: translatey(20px);
+    }
+ } 

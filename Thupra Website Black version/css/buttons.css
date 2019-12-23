@@ -1,0 +1,13 @@
+.btn_v1:link,.btn_v1:visited{text-transform:uppercase;text-decoration:none;padding:10px 25px;display:inline-block;border-radius:50px;background:linear-gradient(to right,rgba(242,182,50,.8),rgba(242,152,50,.8)),url(../img/ProjectWebName1.jpg);color:#fff;transition:all .2s}
+.btn_v1:hover{transform:translateY(-3px);box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.btn_v1:active{transform:translateY(-1px);box-shadow:0 5px 10px rgba(0,0,0,.2)}
+
+.btn-maincolor   {
+    color: #fff;
+    background-color: #252839;
+    border-color: #252839;
+}
+.btn-maincolor:hover   {
+    background-color: #f2b632;
+    border-color: #f2b632;
+}
