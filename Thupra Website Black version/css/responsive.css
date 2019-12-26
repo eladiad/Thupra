@@ -280,14 +280,14 @@
 }
 @media only screen and (max-width: 500px) {
   .main__img--thupra {
-    top: 75%;
+    top: 85%;
     left: 50%;
-    transform: translate(-50%, -75%);
+    transform: translate(-50%, -85%);
   }
   .main__img--thupra--animate {
-    top: 75%;
+    top: 85%;
     left: 300%;
-    transform: translate(-300%, -75%);
+    transform: translate(-300%, -85%);
   }
 }
 /* main shkronjat solo edit */

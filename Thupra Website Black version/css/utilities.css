@@ -116,3 +116,6 @@
 .fd-column{
     flex-direction: column;
 }
+.position-r{
+    position: relative;
+}

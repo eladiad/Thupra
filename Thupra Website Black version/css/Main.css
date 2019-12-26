@@ -100,7 +100,7 @@ p {
 }
 .header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 60px;
@@ -306,14 +306,13 @@ p {
 	margin-right: 25px;
 }
 .p1 {
-	font-size: 6rem;
-	font-weight: 700;
+	font-size: 3.5rem;
 	animation: uptodown 1s 1;
 	width: 100vw;
 	font-family: Montserrat-Bold;
 }
 .p2 {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	animation: righttoleft 1s 1;
 	color: #ececec;
 	font-family: Montserrat-Medium;
