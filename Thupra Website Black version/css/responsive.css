@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 @media only screen and (max-width: 60rem) {
   .main {
     /* height: 100%; */
@@ -24,8 +26,15 @@
     display: none;
   }
   .side-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     height: 100vh;
     text-transform: uppercase;
@@ -35,6 +44,8 @@
     top: 0;
     right: 0;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
   }
   .side-nav li {
@@ -47,6 +58,8 @@
     font-size: 22px;
     color: #fff;
     display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
   }
   .side-nav a:hover {
@@ -62,6 +75,7 @@
     cursor: pointer;
   }
   .main__video video {
+    -o-object-fit: cover;
     object-fit: cover;
     overflow: hidden;
   }
@@ -258,11 +272,15 @@
   .main__img--thupra {
     top: 85%;
     left: 50%;
+    -webkit-transform: translate(-50%, -85%);
+    -ms-transform: translate(-50%, -85%);
     transform: translate(-50%, -85%);
   }
   .main__img--thupra--animate {
     top: 85%;
     left: 300%;
+    -webkit-transform: translate(-300%, -85%);
+    -ms-transform: translate(-300%, -85%);
     transform: translate(-300%, -85%);
   }
 }
@@ -270,11 +288,15 @@
   .main__img--thupra {
     top: 80%;
     left: 50%;
+    -webkit-transform: translate(-50%, -80%);
+    -ms-transform: translate(-50%, -80%);
     transform: translate(-50%, -80%);
   }
   .main__img--thupra--animate {
     top: 80%;
     left: 300%;
+    -webkit-transform: translate(-300%, -80%);
+    -ms-transform: translate(-300%, -80%);
     transform: translate(-300%, -80%);
   }
 }
@@ -282,11 +304,15 @@
   .main__img--thupra {
     top: 85%;
     left: 50%;
+    -webkit-transform: translate(-50%, -85%);
+    -ms-transform: translate(-50%, -85%);
     transform: translate(-50%, -85%);
   }
   .main__img--thupra--animate {
     top: 85%;
     left: 300%;
+    -webkit-transform: translate(-300%, -85%);
+    -ms-transform: translate(-300%, -85%);
     transform: translate(-300%, -85%);
   }
 }

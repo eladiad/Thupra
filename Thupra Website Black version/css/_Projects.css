@@ -1,26 +1,31 @@
 
 .thupraGrid--Project {
+	display: -ms-grid;
 	display: grid;
 	overflow: hidden;
 	grid-auto-columns: 100vw;
 	grid-auto-rows: auto auto auto auto;
 }
 .frontInfo{
+	-ms-grid-row: 1;
 	grid-row: 1/1;
 	grid-column: 1/-1;
 	height: 100vh;
 }
 .galleryInfo{
+	-ms-grid-row: 2;
 	grid-row: 2/2;
 	grid-column: 1/-1;
 	height: 100%;
 }
 .bottomInfo{
+	-ms-grid-row: 3;
 	grid-row: 3/3;
 	grid-column: 1/-1;
 	height: 100%;
 }
 .footerInfo{
+	-ms-grid-row: 4;
 	grid-row: 4/4;
 	grid-column: 1/-1;
 	height: 100%;
