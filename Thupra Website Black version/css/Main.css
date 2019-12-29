@@ -269,8 +269,9 @@ p {
   opacity: 10%;
 }
 .main__img--desk {
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  height: auto;
+  width: 153%;
 }
 .main__img--desk img {
   height: 100%;
@@ -346,7 +347,7 @@ p {
   width: auto;
   height: 5rem;
   display: inline-block;
-  top: 95%;
+  top: 97%;
   left: 50%;
   -webkit-transform: translate(-50%, -95%);
   -ms-transform: translate(-50%, -95%);
