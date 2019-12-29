@@ -134,6 +134,12 @@ p {
   width: auto;
   height: 100%;
 }
+.header--container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
 .header__logo--img {
   width: auto;
   height: 100%;
@@ -260,19 +266,22 @@ p {
 }
 .main__image {
   background-color: #1b1b1b;
+  width: 100%;
   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  visibility: visible;
   position: absolute;
 }
 .main__image img {
   width: 100%;
   height: 100%;
-  opacity: 10%;
+  /* opacity: 10%; */
   visibility: visible;
 }
 .main__img--desk {
-  position: absolute;
-  height: auto;
-  width: 153%;
+  height: 100%;
+  width: 100%;
 }
 .main__img--desk img {
   height: 100%;

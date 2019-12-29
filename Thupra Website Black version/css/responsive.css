@@ -320,6 +320,9 @@
     -ms-transform: translate(-300%, -85%);
     transform: translate(-300%, -85%);
   }
+  .main__image{
+    width: 300%;
+  }
 }
 /* main shkronjat solo edit */
 @media only screen and (max-width: 1440px) {
@@ -330,9 +333,6 @@
 @media only screen and (max-width: 1024px) {
   .main__text {
     margin-top: 0px;
-  }
-  .main__img--desk {
-    width: 115%;
   }
 }
 @media only screen and (max-width: 650px) {
