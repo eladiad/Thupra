@@ -1,11 +1,1 @@
-$('document').ready(function() {
-    $('#links a').click(function(e) {
-        e.preventDefault();
-        $('#links a').removeClass('activeLink');
-        $(this).addClass('activeLink');
-    });
-});
-
-function Animate2id(id) {
-    closeSlideMenu();
-}
+function Animate2id(i){closeSlideMenu()}$("document").ready(function(){$("#links a").click(function(i){i.preventDefault(),$("#links a").removeClass("activeLink"),$(this).addClass("activeLink")})});
